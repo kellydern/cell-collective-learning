@@ -5,7 +5,7 @@ ul, li {
 }
 
 .intro {
-	background-image: url("../img/header-illustration.svg");
+	background-image: url("../img/CellCollective-header2.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -243,8 +243,40 @@ input[type="search"] {
 .build {
 	background-image: url("../img/virtual-diagram.png");
 	background-repeat: no-repeat;
-	padding-bottom: 30rem;
+	padding-bottom: 20rem;
 	background-size: cover;
+}
+
+.diagram-image, .diagram-content {
+	padding-top: 40px;
+	vertical-align: top;
+}
+
+.build h2 {
+	padding-top: 40px;
+}
+
+.diagram-image {
+	max-width: 60%;
+	width: 600px;
+}
+
+.diagram-content {
+	display: inline-block;
+    margin: 0px 0px 0px 30px;
+    width: 40%;
+}
+
+.diagram-subhead {
+	font-size: 1.3em;
+	color: #798991;
+}
+
+.diagram-content p {
+	color: #798991;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.25;
 }
 
 /* How works */
